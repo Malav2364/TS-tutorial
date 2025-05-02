@@ -36,3 +36,25 @@ let tpl1: [number, string] = [1, "Malav"] //tuples are having only 2 possible da
 //this will accept any type of value in it as no datatype is defined
  let n;
  n=10
+
+ let z;
+ z=15
+
+ let x;
+ x = "Malav Patel"
+
+ //Any in typescript means typescript off
+ let j;
+ j="Malav"
+ 
+ //Unknown means we have to define for what type the value is 
+
+ let d:unknown;
+d = 10;
+d = "Malav Patel"
+
+//we have to define the type before using it 
+//Example 
+if (d ==="string"){
+   d.toLowerCase()   
+}
