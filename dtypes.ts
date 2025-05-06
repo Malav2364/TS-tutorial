@@ -58,3 +58,20 @@ d = "Malav Patel"
 if (d ==="string"){
    d.toLowerCase()   
 }
+
+let k = null; //here it is type any 
+k = 10;
+
+let l:null;
+// l = "Malav"; //type null string not assignable
+
+let i: undefined;
+// i = 10; //undefined is not assignable to number
+
+function nevr():never{
+   while (true) {
+   }
+}
+nevr()
+//if type is never then it will not return anything and not execute anything after the block of code
+console.log("Hello!!")
